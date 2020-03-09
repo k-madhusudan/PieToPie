@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">PieToPie</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_activities_list">ActivitiesListActivity</string>
+    <string name="title_activity_add">AddActivity</string>
+    <string name="title_activity_basic_filter">BasicFilterActivity</string>
+    <string name="title_activity_goals_list_archived">GoalsListActivityArchived</string>
+    <string name="title_activity_goals_list_current">GoalsListActivityCurrent</string>
+    <string name="title_activity_goals_main_page">GoalsMainPage</string>
+    <string name="title_activity_home_page">PieToPie</string>
+    <string name="title_activity_import">ImportActivity</string>
+    <string name="title_activity_individual_goal">IndividualGoal</string>
+    <string name="title_activity_set_goal">SetGoal</string>
+    <string name="title_activity_stats_basic">StatsBasic</string>
+</resources>
