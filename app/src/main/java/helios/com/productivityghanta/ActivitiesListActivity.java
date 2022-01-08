@@ -51,7 +51,7 @@ public class ActivitiesListActivity extends ListActivity {
                 String val = lv.getItemAtPosition(arg2).toString();
                 Log.e("valusueuieueu:", lv.getItemAtPosition(arg2).toString());
                 Log.e("act:", val.split("\\n")[0]);
-                dbHandler.deleteActivity(val.split("\\n")[0], val.split("\\n")[1]);
+                dbHandler.deleteActivity(val.split("\\n")[0], val.split("\\n")[1],val.split("\\n")[2]);
                 ActivitiesListActivity.this.lists.remove(Long.valueOf(arg3));
                 ActivitiesListActivity.this.adapter.notifyDataSetChanged();
                 return true;

@@ -80,6 +80,7 @@ public class StatsBasic extends ListActivity {
                 Log.e("Datediff", BuildConfigMine.FLAVOR + cal2.getTimeInMillis());
                 Log.e("Datediff", BuildConfigMine.FLAVOR + cal1.getTimeInMillis());
                 Log.e("Datediff", BuildConfigMine.FLAVOR + diff);
+                Log.e("TotalHours", BuildConfigMine.FLAVOR + hours);
                 stats.add("Unaccounted" + "," + (((double) Math.round(((24.0d * ((double) diff)) - hours) * 100.0d)) / 100.0d) + " Hours");
             } catch (ParseException e2) {
                 e2.printStackTrace();

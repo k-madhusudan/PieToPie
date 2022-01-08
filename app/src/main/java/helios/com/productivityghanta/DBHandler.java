@@ -196,9 +196,9 @@ public class DBHandler extends SQLiteOpenHelper {
         return true;
     }
 
-    public boolean deleteActivity(String activity, String mins) {
+    public boolean deleteActivity(String activity, String mins, String date) {
         Calendar cal = Calendar.getInstance();
-        String query = "delete FROM " + TABLE_ACT + " where Activity='" + activity + "' and Minutes=" + mins;
+        String query = "delete FROM " + TABLE_ACT + " where Activity='" + activity + "' and Minutes=" + mins + " and DateOfAct = '"+ date + "'";
         SQLiteDatabase db = getWritableDatabase();
         Log.e("querydelete", query);
         db.execSQL(query);
